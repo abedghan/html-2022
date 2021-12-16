@@ -1,0 +1,14 @@
+div p {width: 500px;
+border: 2px solid rebeccapurple
+}
+div p{text-align: center;
+    color: #e3e3e3;
+}
+div, p{
+    text-align: center;
+    color: rgb(131, 75, 75);
+}
+div > p{
+    text-align: center;
+    color: rgb(112, 68, 68);
+}
