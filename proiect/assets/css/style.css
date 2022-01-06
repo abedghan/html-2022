@@ -102,3 +102,10 @@ h3, p {
     color: #2690d4;
     text-decoration: none;
 }
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a {
+    color: white;
+}
