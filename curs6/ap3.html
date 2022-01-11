@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formular contact</h1>
+   
+    <form action="">
+        <label for="orasul"> Orasul</label>
+<select name="orasul" id="orasul">
+    <option value="0">selecteaza</option>
+    <option value="1">sibiu</option>
+    <option value="2">cluj</option>
+    <option value="3">iasi</option>
+</select>
+<br><br><br>
+<label for="curs">cursuri</label>
+<select name="curs" id="curs" multiple>
+    <option value="1">java</option>
+    <option value="2">php</option>
+    <option value="3">html</option>
+    <option value="4">css</option>
+    <option value="5">javascript</option>
+    <option value="6">c#</option>
+</select>
+<br>
+<label for="">message</label>
+<textarea name="message" id="message" cols="30" rows="10"></textarea>
+<br><br>
+<label for="cv">CV</label>
+<input id="cv" type="file" name="cv">
+<br><br>
+<fieldset>
+    <legend>program cursuri</legend>
+
+<input type="radio" name="prog" id="prog">diminatea </input >
+<input type="radio" name="prog" id="prog"> la pranz</input >
+<input type="radio" name="prog" id="prog" checked> seara</input ></fieldset>
+<br>
+<input type="checkbox" name="op1" checked>termini si conditti
+<input type="checkbox" name="op2">va aonati la newslatter
+
+<br><br>
+<input type="submit" value="tremite datele">
+    </form>
+
+</body>
+</html>
