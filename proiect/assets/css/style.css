@@ -155,5 +155,9 @@ nav ul li a.active {
       width: 31%;
     }
   }
+  h2.content-title a {
+      color: #eaeaea;
+     
+  }
 
   
