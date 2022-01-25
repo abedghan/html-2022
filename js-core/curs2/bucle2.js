@@ -1,16 +1,17 @@
-// program to generate a multiplication table
-
-// take input from the user
-var number = 5
-
-//creating a multiplication table
-while (condition) {
-    
-}(let i = 1; i <= 10; i++) {
-
-    // multiply i with number
-    const result = i * number;
-
-    // display the result
-    console.log(`${number} * ${i} = ${result}`);
+var i = 1;
+var j = 1;
+var max = 10;
+while (j <= max) {
+    var message = j + "x" + i + "=" + i * j + "<br>"
+    message =`${j} x ${i} = ${j*i} <br>`
+    document.write(message )
+    j++
+}
+document.write("<br>")
+for ( i =1 ; i<=max;i++ ){
+for (j = 1;j <= max ; j++) {
+    message =`${j} x ${i} = ${j*i} <br>`
+    document.write(message )
+}
+document.write("<br>")
 }
