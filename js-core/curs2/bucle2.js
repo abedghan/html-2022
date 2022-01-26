@@ -9,8 +9,8 @@ while (j <= max) {
 }
 document.write("<br>")
 for ( i =1 ; i<=max;i++ ){
-for (j = 1;j <= max ; j++) {
-    message =`${j} x ${i} = ${j*i} <br>`
+// for (j = 1;j <= max ; j++) {
+//     message =`${j} x ${i} = ${j*i} <br>`
     document.write(message )
 }
 document.write("<br>")
