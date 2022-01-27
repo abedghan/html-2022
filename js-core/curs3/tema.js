@@ -1,13 +1,18 @@
 var i = 1;
 var j = 0;
-var maxL = 20;
+var maxH = 20;
 var maxW = 10;
+var y = ("#")
 
-document.write("<br>")
-for ( i =1 ; i<=maxL;i++ ){
+
+
+for ( i =1 ; i<=maxH;i++ ){
 for (j = 1;j <= maxW ; j++) {
-    message =i*0 
+    
+    message = (i*0 ) 
     document.write(message  )
 }
+
+
 document.write("<br>")
 }

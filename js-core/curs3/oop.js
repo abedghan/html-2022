@@ -26,3 +26,8 @@ car.drive(300)
 document.write("charge: " + car.batteryCharge + " <br>")
 car.fullcharge()
 document.write("charge: " + car.batteryCharge + " <br>")
+car.paint("green")
+document.write("the color"+ car.color + "<br>")
+car.drive(150)
+
+document.write("chrge : " +car.batteryCharge + "<br>")
