@@ -1,8 +1,11 @@
 var cy = document.querySelector('#cycle')
 cy.addEventListener('click' , move)
 
-function move(){
-    for(let i = 5; i >=0;i--){
-    cy.style.height = i + 'em'
-}
+async function move () {
+    
+    for (let i =20 ; i <=680; i++ ){
+        await new Promise(r => setTimeout(r,5))
+        cycle.style.top  = cycle.style.left = i +'px'
+    }
+   
 }
