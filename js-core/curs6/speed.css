@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input {
+    font-size: 30px;
+border-radius: 20%;
+background-color: orange;
+color: white;
+border: solid 2px blue;
+cursor: pointer;
+}
+.letter{
+    font-weight: bolder;
+    position: fixed;
+    color: white;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    font-size: 13px;
+    border: solid 2px black;
+    border-radius: 30%;
+
+}
